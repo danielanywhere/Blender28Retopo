@@ -37,6 +37,5 @@ def removeDecimateModifiers(item):
 # Main script.
 for item in selectedObjects:
 	if(item.type == "MESH"):
-		# bpy.context.scene.objects.active = item;
 		removeDecimateModifiers(item);
 		addDecimateModifier(item);
